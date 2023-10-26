@@ -18,6 +18,10 @@ const Carousel = () => {
 
     const [slide, setSlide] = useState(0);
 
+    const navPrev = () => {
+        
+    }
+
     return (
         <div className="crs-container">
             <div className="crs-arrow">
