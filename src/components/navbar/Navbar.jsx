@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <div className="nvb-container">
             <div className="nvb-content">
-                <h1>ShopCar</h1>
+                <h1>SafeSearch</h1>
                 <ul> 
                     <li>Home</li>
                     <li>Estoque</li>
