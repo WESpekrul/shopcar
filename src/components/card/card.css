@@ -1,0 +1,21 @@
+.crd-container{
+    width: 250px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.crd-bottom{
+
+}
+
+.crd-preco{
+
+}
+
+.crd-location{
+
+}

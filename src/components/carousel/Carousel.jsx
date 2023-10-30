@@ -10,9 +10,9 @@ import {
 const Carousel = () => {
 
     const data = [
-        {id: 1, url: "http://10.11.11.145:3000/assets/images/carro0.jpg"},
-        {id: 2, url: "http://10.11.11.145:3000/assets/images/carro1.jpg"},
-        {id: 3, url: "http://10.11.11.145:3000/assets/images/carro2.jpg"},
+        {id: 1, url: "http://localhost:3000/assets/images/carro0.jpg"},
+        {id: 2, url: "http://localhost:3000/assets/images/carro1.jpg"},
+        {id: 3, url: "http://localhost:3000/assets/images/carro2.jpg"},
 
     ];
 
