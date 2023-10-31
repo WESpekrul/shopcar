@@ -5,17 +5,51 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
+    box-shadow: 0px 1px 15px -3px rgba(0,0,0,0.1);
+    margin-top: 30px;
+    border-radius: 5px;
+    overflow: hidden;
 }
 
+.crd-carinfo h1{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.crd-carinfo h2{
+    font-size: 15px;
+    font-weight: 500;
+    color: red;
+}
+
+.crd-carinfo span{
+    font-size: 14px;
+    font-weight: 400;
+    
+}
 .crd-bottom{
+    height: 220px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 15px 20px;
+}
+
+.crd-preco h1{
+    font-size: 22px;
+    font-weight: 600;
 
 }
 
-.crd-preco{
-
+.crd-location svg{
+    width: 18px;
+    height: 18px;
+    margin: 5px;
 }
-
-.crd-location{
+l
+.crd-location span{
+    font-size: 14px;
+    font-weight: 400;
 
 }

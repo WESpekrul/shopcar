@@ -7,6 +7,13 @@ const ShopWindow = () => {
         <div className="spw-container">
             <div className="spw-content">
                 <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
             </div>            
         </div>
     )
