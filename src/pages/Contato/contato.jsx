@@ -1,9 +1,9 @@
-import "./contact.css";
+import "./contato.css";
 import Navbar from "../../components/navbar/Navbar"
 import React from "react";
 import Footer from "../../components/footer/Footer";
 
-const Contact = () => {
+const Contato = () => {
     return (
         <>
             <Navbar />
@@ -13,4 +13,4 @@ const Contact = () => {
     )
 };
 
-export default Contact
+export default Contato

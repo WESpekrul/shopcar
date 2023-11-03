@@ -1,6 +1,7 @@
 import React from "react";
 import "./navbar.css";
 import {FaInstagram, FaWhatsapp, FaYoutube, FaFacebook} from "react-icons/fa"
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
@@ -8,11 +9,11 @@ const Navbar = () => {
             <div className="nvb-content">
                 <h1>SafeSearch</h1>
                 <ul> 
-                    <li>Home</li>
-                    <li>Estoque</li>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/car">Estoque</Link></li>
                     <li>Vendas</li>
                     <li>Compra</li>
-                    <li>Contatos</li>
+                    <li><Link to="/contato">Contato</Link></li>
                 </ul>
 
                 <div className="nvb-contato">

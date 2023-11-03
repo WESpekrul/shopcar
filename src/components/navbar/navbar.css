@@ -31,6 +31,17 @@
    gap: 10px;
 
 }
+.nvb-content Link ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 60px;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+ 
+ }
 
 .nvb-content ul li {
     display: flex;

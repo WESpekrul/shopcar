@@ -4,12 +4,12 @@ import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App';
 import Car from './pages/Car/car';
-import Contact from './pages/Contact/contact';
+import Contato from './pages/Contato/contato';
 
 const router = createBrowserRouter ([
   {path: "/", element: <App />},
   {path:"/car", element: <Car />},
-  {path:"/contact", element: <Contact/>}
+  {path:"/contato", element: <Contato/>}
 ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
