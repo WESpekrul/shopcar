@@ -15,7 +15,6 @@ const Home = () => {
             <Contact />
             <Servico />
             <Footer />
-
         </>
     )
 };
