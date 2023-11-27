@@ -1,9 +1,11 @@
 import "./estoque.css";
 import Navbar from "../../components/navbar/Navbar"
 import React from "react";
+import Card from "../../components/card/Card";
 import Footer from "../../components/footer/Footer";
 import { BiSearch } from "react-icons/bi"
 import "./estoque.css"
+import ;
 
 const Estoque = () => {
     return (
@@ -21,6 +23,14 @@ const Estoque = () => {
                     <input type="text" id="txtSearch"/>
                     <BiSearch />
                 </div>
+            </div>
+
+            <div className="est-vitrine">
+                {carInfo.map((item, index)=> (
+                    <Card item={item}/>
+                    
+                ))}
+
             </div>
             </div>
             </div>
