@@ -5,7 +5,7 @@ import Card from "../../components/card/Card";
 import Footer from "../../components/footer/Footer";
 import { BiSearch } from "react-icons/bi"
 import "./estoque.css"
-import ;
+import { carInfo } from "../../data/data"
 
 const Estoque = () => {
     return (
