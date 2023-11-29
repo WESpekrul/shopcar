@@ -6,16 +6,7 @@ import { Link } from "react-router-dom";
 const ShopWindow = () => {
     return (
         <div className="spw-container">
-            <div className="spw-content">
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <button>
+             <button>
                     <Link to="/estoque">
 
                         Visualizar os veículos do estoque 
@@ -24,8 +15,21 @@ const ShopWindow = () => {
 
                                     
                 </button>
-            </div>            
-        </div>
+            <div className="spw-content">
+           
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                </div>  
+                </div>
+                
+                      
+        
     )
 }
 

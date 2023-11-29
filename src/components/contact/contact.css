@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: auto;
 }
 
 .ctc-content{
@@ -12,23 +13,27 @@
     height: max-content;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin-top: auto;
     
 }
 
 .ctc-info{
     margin-left: 20px;
+    margin-top: auto;
 }
 
 .ctc-info h3{
     font-size: 16px;
     font-weight: 400;
     color: #323232;
+    margin-top: auto;
 }
 
 .ctc-info h2{
     font-size: 19px;
     font-weight: 600;
     color: red;
+    margin-top: auto;
 }
 
 
@@ -36,12 +41,14 @@
     font-size: 20px;
     font-weight: bold;
     color: #323232;
+    margin-top: auto;
 }
 
 .ctc-info h1{
     font-size: 24px;
     font-weight: 700;
     color: #323232;
+    margin-top: auto;
 }
 
 .ctc-form form input[type="text"]{
@@ -51,6 +58,7 @@
     border: 1px solid lightgray;
     border-radius: 5px;
     margin: 10px 10px;
+    margin-top: auto;
 }
 
 .ctc-form form textarea{
@@ -62,6 +70,7 @@
     resize: none;
     font-size: 15px;
     font-family: inherit;
+    margin-top: auto;
 
 }
 
@@ -73,7 +82,8 @@
     margin: 10px 10px;
     background-color: #323232;
     color: #fff;
-    font-size: 15px;        
+    font-size: 15px;    
+    margin-top: auto;    
 }
 
 .ctc-map{
