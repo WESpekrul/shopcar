@@ -23,7 +23,7 @@ const ShopWindow = () => {
                 <Card />
 
                 <button>
-                    <Link to="/estoque">
+                    <Link to="/car">
 
                         Visualizar todos os veículos do estoque 
                         

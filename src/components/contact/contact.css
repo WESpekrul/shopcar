@@ -13,13 +13,13 @@
     height: max-content;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin-top: auto;
+    margin-top: 70px;
     
 }
 
 .ctc-info{
     margin-left: 20px;
-    margin-top: auto;
+    margin-top: 70px;
 }
 
 .ctc-info h3{
@@ -52,7 +52,7 @@
 }
 
 .ctc-form form input[type="text"]{
-    width: 100%;
+    width: 85%;
     height: 45px;
     padding: 10px 10px;
     border: 1px solid lightgray;
@@ -62,7 +62,8 @@
 }
 
 .ctc-form form textarea{
-    width: 100%;    
+    width: 85%;  
+    height: 55px;   
     padding: 10px 10px;
     border: 1px solid lightgray;
     border-radius: 5px;
@@ -75,7 +76,7 @@
 }
 
 .ctc-form form button{
-    width: 100%;   
+    width: 90%;   
     height: 55px; 
     border: none;
     border-radius: 5px;

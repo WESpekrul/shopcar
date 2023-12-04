@@ -7,7 +7,7 @@ const ShopWindow = () => {
     return (
         <div className="spw-container">
              <button>
-                    <Link to="/estoque">
+                    <Link to="/car">
 
                         Visualizar os veículos do estoque 
                         

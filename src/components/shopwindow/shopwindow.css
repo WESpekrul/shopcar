@@ -25,6 +25,7 @@
     width: 280px;
     height: 45px;
     display: flex;
+    justify-content: center;
     padding: 10px 10px;
     border: none;
     border-radius: 5px;
