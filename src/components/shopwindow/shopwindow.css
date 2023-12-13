@@ -6,7 +6,6 @@
     align-items: flex-start;
     flex-wrap: wrap;
     margin-bottom: 60px;
-
 }
 
 .spw-content {
@@ -18,7 +17,6 @@
     flex-wrap: wrap;
     gap: 25px;
     margin-top: 40px;
-
 }
 
 .spw-container button {
@@ -31,8 +29,4 @@
     border-radius: 5px;
     margin: 10px;
     background-color: #ffff;
-
-
-
-
 }
