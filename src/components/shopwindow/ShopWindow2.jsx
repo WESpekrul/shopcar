@@ -1,7 +1,7 @@
 import React from "react";
 import "./shopwindow.css";
 import Card from "../card/Card";
-import { carInfo } from "../../data/data"
+import { carInfo } from "../../data/car"
 import { Link } from "react-router-dom";
 
 const ShopWindow = () => {
